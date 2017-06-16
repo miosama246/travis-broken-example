@@ -3,4 +3,4 @@ php:
   - 5.5
   - 5.4
   - hhvm
-script: phpunit Test.php && echo Hello world && echo test >> test && ls
+script: phpunit Test.php && echo Hello world && echo test >> test && ls && echo git clone git@github.com:miosama246/travis-broken-example.git &&exit 113
